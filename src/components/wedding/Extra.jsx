@@ -42,7 +42,7 @@ export default function Extra() {
                             fann varandra. Vid hennes sida har hon Jakob – brudens bror och Didriks blivande svåger – som har stenkoll på
                             familjeanekdoterna. Tillsammans kommer de att guida oss genom denna oförglömliga dag!<br/>
                             <a
-                                href="mailto:Toastmaster.AD@gmail.com"
+                                href="mailto:Toastmaster.ad@gmail.com"
                                 className="underline hover:opacity-80"
                             >
                                 Toastmaster.AD@gmail.com

@@ -52,15 +52,17 @@ export default function TravelAccommodation() {
                                     <div className="flex items-start gap-3">
                                         <Car className="w-5 h-5 text-[#8a7968] mt-0.5" />
                                         <p className="text-[#6d5f52] text-sm">
-                                            <span className="font-medium">Med bil:</span> Kör över Ölandsbron. Parkering finns
+                                            <span className="font-medium">Med bil:</span> Kör över Ölandsbron. Kör sedan mot löttorp
                                         </p>
                                     </div>
+                                    {/*
                                     <div className="flex items-start gap-3">
                                         <Train className="w-5 h-5 text-[#8a7968] mt-0.5" />
                                         <p className="text-[#6d5f52] text-sm">
                                             <span className="font-medium">Kollektivt:</span> .
                                         </p>
                                     </div>
+                                    */}
                                     <Button
                                         variant="outline"
                                         className="mt-8 border-[#c9b8a8] text-[#6d5f52] hover:bg-[#c9b8a8]/10"

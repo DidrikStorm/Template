@@ -28,11 +28,11 @@ export default function Footer() {
                     {/* Contact */}
                     <div className="flex flex-col md:flex-row items-center justify-center gap-6 mb-8">
                         <a
-                            href="mailto:alice.didrik@brollop.se"
+                            href="mailto:aliceochdidrik2026@gmail.com"
                             className="flex items-center gap-2 text-white/70 hover:text-white transition-colors"
                         >
                             <Mail className="w-4 h-4" />
-                            alice.didrik@brollop.se
+                            aliceochdidrik2026@gmail.com
                         </a>
                         <a
                             href="https://www.instagram.com/alicelyftervikter"
