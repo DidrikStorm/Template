@@ -32,7 +32,7 @@ export default function Gifts() {
                             <Gift className="w-7 h-7 text-[#c4a67c]" />
                         </div>
                         <p className="text-[#6d5f52] leading-relaxed text-lg max-w-xl mx-auto">
-                            Vi har bestämt oss att vi inte ska några presenter
+                            Vi har bestämt oss att vi inte ska några presenter <br />
                             Vi vill hellre att man isåfall bidrar till bröllopet och bröllopsresa med en slant
                         </p>
                     </div>
@@ -54,9 +54,6 @@ export default function Gifts() {
                                 Bröllopet <br/>
 
                             </p>
-                            <p className="text-[#8a7968] text-xs">
-                                Swish: 123 456 78 90
-                            </p>
                         </motion.div>
 
                         <motion.div
@@ -73,9 +70,6 @@ export default function Gifts() {
                             <p className="text-[#6d5f52] text-sm leading-relaxed mb-4">
                                 Bröllopsresa
                             </p>
-                            <p className="text-[#8a7968] text-xs">
-                                Swish: 123 456 78 90
-                            </p>
                         </motion.div>
                     </div>
 
@@ -89,7 +83,7 @@ export default function Gifts() {
                     >
                         <h4 className="font-medium text-[#4a4038] mb-4">Bankuppgifter</h4>
                         <div className="space-y-2 text-[#6d5f52] text-sm">
-                            <p>Swedbank: 8214-9 123 456 789-0</p>
+                            <p>Handelsbanken: </p>
                             <p>Mottagare: Alice Fogelberg & Didrik Storm</p>
                             <p className="text-[#8a7968]">Märk gärna överföringen med ert namn</p>
                         </div>

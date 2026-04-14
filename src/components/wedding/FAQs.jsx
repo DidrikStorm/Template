@@ -6,8 +6,9 @@ import { ChevronDown } from "lucide-react";
 const faqs = [
     {
         question: "Vad är klädkoden?",
-        answer: `Klädkoden är .... Damer gärna i elegant klänning och herrar i kostym.
-            Undvik vitt och svart. Tänk på att delar av festen är utomhus.`
+        answer: `Klädkod: Festligt uppklätt
+Ta på er något ni känner er fina i – gärna kostym eller klänning.
+Vi älskar färg, men det viktigaste är att ni känner er bekväma och festliga.`
     },
     {
         question: "Får man hålla tal?",
@@ -16,18 +17,18 @@ const faqs = [
     },
     {
         question: "Finns det vegetariskt/veganskt alternativ?",
-        answer: "Absolut! Meddela oss om allergier eller matpreferenser när du OSA:r så ordnar vi ett underbart alternativ."
+        answer: "Absolut! Meddela oss om allergier eller matpreferenser så ordnar vi ett underbart alternativ."
+    },
+    {
+        question: "Vad ska jag göra om jag har allergier?",
+        answer: "Meddela oss om eventuella allergier så säkerställer vi att maten passar dig."
     },
     {
         question: "Kan jag ta bilder under ceremonin?",
         answer: `Självklart!
             Vi blir jätteglada om ni vill ta bilder och föreviga dagen tillsammans med oss.
             Det viktigaste för oss är att ni känner er närvarande och delar stunden med oss.`
-    },
-    {
-        question: "Vad ska jag göra om jag har allergier?",
-        answer: "Meddela oss om eventuella allergier när du OSA:r så säkerställer vi att maten passar dig."
-    },
+    }
 ];
 
 function FAQItem({ faq, isOpen, onClick }) {

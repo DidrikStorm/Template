@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import {Car, Heart, LucideMartini, LucideUtensils, MicVocal, Plane} from "lucide-react";
+import {Car, Plus, Heart, LucideMartini, LucideUtensils, MicVocal, Plane} from "lucide-react";
 import coupleImg from "/src/components/IMG_0682.jpeg";
 
 export default function Extra() {
@@ -125,14 +125,14 @@ export default function Extra() {
                             className="bg-[#f7f3ed] rounded-2xl p-8 text-center"
                         >
                             <div className="w-14 h-14 rounded-full bg-white flex items-center justify-center mx-auto mb-4 shadow-sm">
-                                <Car className="w-6 h-6 text-[#c4a67c]" />
+                                <Plus className="w-6 h-6 text-[#c4a67c]" />
                             </div>
-                            <h3 className="font-serif text-xl text-[#4a4038] mb-3">Parkering</h3>
+                            <h3 className="font-serif text-xl text-[#4a4038] mb-3">Extra Information</h3>
                             <p className="text-[#6d5f52] text-sm leading-relaxed mb-4">
 
                             </p>
                             <p className="text-[#8a7968] text-xs">
-                                "Ja, det finns gott om parkering vid lokalen. Det kommer finnas skyltar som visar vägen."
+                                "Mer info kommer."
 
                             </p>
                         </motion.div>

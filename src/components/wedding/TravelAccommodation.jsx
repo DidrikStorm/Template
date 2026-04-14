@@ -52,7 +52,8 @@ export default function TravelAccommodation() {
                                     <div className="flex items-start gap-3">
                                         <Car className="w-5 h-5 text-[#8a7968] mt-0.5" />
                                         <p className="text-[#6d5f52] text-sm">
-                                            <span className="font-medium">Med bil:</span> Kör över Ölandsbron. Kör sedan mot löttorp
+                                            <span className="font-medium">Med bil:</span> Kör över Ölandsbron. Kör sedan mot löttorp <br />
+                                            Parkering finns vid lokalen
                                         </p>
                                     </div>
                                     {/*
@@ -100,17 +101,14 @@ export default function TravelAccommodation() {
                             </div>
                             <h3 className="font-serif text-2xl text-[#4a4038]">Boende</h3>
                         </div>
-
-                        <p className="text-[#6d5f52] mb-6">
-                            Om ni inte hittar något boende kanske vi kan lösa det<br />
-                        </p>
                         <div className="mt-8 p-6 bg-[#c4a67c]/10 rounded-xl">
                             <p className="text-[#6d5f52] text-sm flex items-start gap-2">
                                 <Phone className="w-4 h-4 mt-0.5 flex-shrink-0" />
                                 <span>
-                  Vid frågor om boende, kontakta oss på <br />
-                  <a href="mailto:alice.didrik@brollop.se" className="text-[#c4a67c] hover:underline">
-                    alice.didrik@brollop.se
+                                    Om ni inte hittar något boende kanske vi kan lösa det<br />
+                  eller har andra frågor, kontakta oss på <br />
+                  <a href="mailto:aliceochdidrik2026@gmail.com" className="text-[#c4a67c] hover:underline">
+                    aliceochdidrik2026@gmail.com
                   </a>
                 </span>
                             </p>
