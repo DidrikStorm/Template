@@ -158,7 +158,7 @@ export default function EnvelopeIntro({ onOpen }) {
                             transition={{ delay: 1.5, duration: 0.5 }}
                             className="mt-10 md:mt-14 text-[#8a7a6d] tracking-[0.3em] uppercase text-xs"
                         >
-                            Click to open
+                            Tryck för att öppna
                         </motion.p>
                     )}
 

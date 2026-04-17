@@ -37,7 +37,7 @@ export default function Extra() {
                         </div>
                         <h3 className="font-serif text-xl text-[#4a4038] mb-3">Toastmasters</h3>
                         <p className="text-[#6d5f52] text-sm leading-relaxed mb-4">
-                            Vi har den stora äran att presentera våra värdpar, Mathilda och Jakob! Mathilda är inte bara en av
+                            Vi har den stora äran att presentera vårt värdpar, Mathilda och Jakob! Mathilda är inte bara en av
                             brudparets närmaste vänner, utan också den levande Amors pil som såg till att Alice och Didrik överhuvudtaget
                             fann varandra. Vid hennes sida har hon Jakob – brudens bror och Didriks blivande svåger – som har stenkoll på
                             familjeanekdoterna. Tillsammans kommer de att guida oss genom denna oförglömliga dag!<br/>
