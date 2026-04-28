@@ -52,7 +52,8 @@ export default function TravelAccommodation() {
                                     <div className="flex items-start gap-3">
                                         <Car className="w-5 h-5 text-[#8a7968] mt-0.5" />
                                         <p className="text-[#6d5f52] text-sm">
-                                            <span className="font-medium">Med bil:</span> Kör över Ölandsbron. Kör sedan mot löttorp <br />
+                                            <span className="font-medium">Med bil:</span> Kör över Ölandsbron och sedan norrut mot löttorp <br />
+                                            Lättast är att kolla på kartan genom<br /> att klicka på knappen här nedan <br />
                                             Parkering finns vid lokalen
                                         </p>
                                     </div>
@@ -64,9 +65,10 @@ export default function TravelAccommodation() {
                                         </p>
                                     </div>
                                     */}
+                                    <div className="mt-8 flex justify-center">
                                     <Button
                                         variant="outline"
-                                        className="mt-8 border-[#c9b8a8] text-[#6d5f52] hover:bg-[#c9b8a8]/10"
+                                        className="border-[#c9b8a8] text-[#6d5f52] hover:bg-[#c9b8a8]/10"
                                         onClick={() =>{
                                             window.open("https://www.google.com/maps/search/?api=1&query=S%C3%B6dviks+G%C3%A4stgivareg%C3%A5rd", "_blank"
                                             );
@@ -76,6 +78,7 @@ export default function TravelAccommodation() {
                                         Visa på karta
 
                                     </Button>
+                                    </div>
                                     <div className="location">
                                         <img
                                             className="wedding-image"

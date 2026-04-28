@@ -89,8 +89,9 @@ export default function WelcomeHero() {
                             1 Augusti 2026
                         </p>
                         <p className="text-[#8a7968] tracking-wide">
-                            Öland, Sverige <br/>
+                            Södviks Gästgivaregård <br />
                             Gamla vägen 35 <br/>
+                            Öland, Sverige <br/>
                             387 70 Löttorp Sverige
                         </p>
 

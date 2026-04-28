@@ -24,84 +24,39 @@ export default function Gifts() {
                     whileInView={{ opacity: 1, y: 0 }}
                     viewport={{ once: true }}
                     transition={{ duration: 0.8 }}
-                    className="max-w-3xl mx-auto"
+                    className="max-w-2xl mx-auto text-center"
                 >
-                    {/* Main message */}
-                    <div className="text-center mb-12">
-                        <div className="w-16 h-16 rounded-full bg-[#c4a67c]/20 flex items-center justify-center mx-auto mb-6">
-                            <Gift className="w-7 h-7 text-[#c4a67c]" />
-                        </div>
-                        <p className="text-[#6d5f52] leading-relaxed text-lg max-w-xl mx-auto">
-                            Vi har bestämt oss att vi inte ska några presenter <br />
-                            Vi vill hellre att man isåfall bidrar till bröllopet och bröllopsresa med en slant
-                        </p>
+                    <div className="w-16 h-16 rounded-full bg-[#c4a67c]/20 flex items-center justify-center mx-auto mb-8">
+                        <Gift className="w-7 h-7 text-[#c4a67c]" />
                     </div>
 
-                    {/* Gift options */}
-                    <div className="grid md:grid-cols-2 gap-6 mb-12">
-                        <motion.div
-                            initial={{ opacity: 0 }}
-                            whileInView={{ opacity: 1 }}
-                            viewport={{ once: true }}
-                            transition={{ duration: 0.8, delay: 0.2 }}
-                            className="bg-white border border-[#e8ddd0] rounded-2xl p-8 text-center"
-                        >
-                            <div className="w-14 h-14 rounded-full bg-white flex items-center justify-center mx-auto mb-4 shadow-sm">
-                                <Gem className="w-6 h-6 text-[#c4a67c]" />
-                            </div>
-                            <h3 className="font-serif text-xl text-[#4a4038] mb-3">Bröllop</h3>
-                            <p className="text-[#6d5f52] text-sm leading-relaxed mb-4">
-                                Bröllopet <br/>
+                    <p className="font-serif text-2xl md:text-3xl text-[#4a4038] mb-6 leading-relaxed italic">
+                        Er närvaro är den finaste gåvan vi kan tänka oss.
+                    </p>
 
-                            </p>
-                        </motion.div>
+                    <p className="text-[#6d5f52] leading-relaxed text-lg mb-8">
+                        Vi har valt att inte önska oss några presenter. Men om ni ändå vill ge oss något
+                        att minnas dagen med, kommer det vid presentbordet finnas en Swish QR-kod.
+                    </p>
 
-                        <motion.div
-                            initial={{ opacity: 0 }}
-                            whileInView={{ opacity: 1 }}
-                            viewport={{ once: true }}
-                            transition={{ duration: 0.8, delay: 0.2 }}
-                            className="bg-white border border-[#e8ddd0] rounded-2xl p-8 text-center"
-                        >
-                            <div className="w-14 h-14 rounded-full bg-white flex items-center justify-center mx-auto mb-4 shadow-sm">
-                                <Plane className="w-6 h-6 text-[#c4a67c]" />
-                            </div>
-                            <h3 className="font-serif text-xl text-[#4a4038] mb-3">Resa</h3>
-                            <p className="text-[#6d5f52] text-sm leading-relaxed mb-4">
-                                Bröllopsresa
-                            </p>
-                        </motion.div>
-                    </div>
+                    <p className="text-[#6d5f52] leading-relaxed text-base mb-10">
+                        Ni är varmt välkomna att skriva i meddelandet vart ni vill att bidraget ska gå —
+                        det kan vara till bröllopsresan, en renovering eller bara till det gemensamma hemmet.
+                        Varje liten tanke värmer oerhört.
+                    </p>
 
-                    {/* Bank details */}
-                    <motion.div
-                        initial={{ opacity: 0 }}
-                        whileInView={{ opacity: 1 }}
-                        viewport={{ once: true }}
-                        transition={{ duration: 0.8, delay: 0.2 }}
-                        className="bg-white border border-[#e8ddd0] rounded-2xl p-8 text-center"
-                    >
-                        <h4 className="font-medium text-[#4a4038] mb-4">Bankuppgifter</h4>
-                        <div className="space-y-2 text-[#6d5f52] text-sm">
-                            <p>Handelsbanken: </p>
-                            <p>Mottagare: Alice Fogelberg & Didrik Storm</p>
-                            <p className="text-[#8a7968]">Märk gärna överföringen med ert namn</p>
-                        </div>
-                    </motion.div>
+                    <p className="text-[#6d5f52] leading-relaxed text-base mb-10">
+                        Men här är en lista i med några presenter om man måster
+                        excel...
+                        Så om man köper något av detta checka gärna i det så vi inte får massa dubbletter.
+                    </p>
 
-                    {/* Thank you note */}
-                    <motion.div
-                        initial={{ opacity: 0 }}
-                        whileInView={{ opacity: 1 }}
-                        viewport={{ once: true }}
-                        transition={{ duration: 0.8, delay: 0.3 }}
-                        className="text-center mt-12"
-                    >
-                        <Heart className="w-6 h-6 text-[#c4a67c] mx-auto mb-4 fill-[#c4a67c]/30" />
-                        <p className="text-[#8a7968] italic">
-                            Tack för att ni firar med oss!
-                        </p>
-                    </motion.div>
+                    <div className="w-32 h-px bg-[#c9b8a8] mx-auto mb-10" />
+
+                    <Heart className="w-6 h-6 text-[#c4a67c] mx-auto mb-4 fill-[#c4a67c]/30" />
+                    <p className="text-[#8a7968] italic text-base">
+                        Tack för att ni firar med oss!
+                    </p>
                 </motion.div>
             </div>
         </section>

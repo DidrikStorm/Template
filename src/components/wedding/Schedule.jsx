@@ -23,7 +23,7 @@ const scheduleItems = [
     {
         time: "20:00",
         title: "Dessert",
-        description: "Hej.",
+        description: "Det bjuds på en hemmabakad dessert gjord av Camilla.",
         icon: Cake,
     },
     {

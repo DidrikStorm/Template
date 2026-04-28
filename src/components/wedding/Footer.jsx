@@ -34,13 +34,13 @@ export default function Footer() {
                             <Mail className="w-4 h-4" />
                             aliceochdidrik2026@gmail.com
                         </a>
-                        <a
+                        {/* <a
                             href="https://www.instagram.com/alicelyftervikter"
                             className="flex items-center gap-2 text-white/70 hover:text-white transition-colors"
                         >
                             <Instagram className="w-4 h-4" />
                             @alicelyftervikter
-                        </a>
+                        </a>*/}
                     </div>
 
                     {/* Hashtag */}
