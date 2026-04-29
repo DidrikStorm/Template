@@ -32,23 +32,25 @@ export default function Gifts() {
 
                     <p className="font-serif text-2xl md:text-3xl text-[#4a4038] mb-6 leading-relaxed italic">
                         Er närvaro är den finaste gåvan vi kan tänka oss.
+
+                        Vi har allt vi behöver så därför har vi ingen lång present lista. Men vill ni ändå uppmärksamma vår dag med en gåva så har vi två förslag:
                     </p>
 
                     <p className="text-[#6d5f52] leading-relaxed text-lg mb-8">
-                        Vi har valt att inte önska oss några presenter. Men om ni ändå vill ge oss något
-                        att minnas dagen med, kommer det vid presentbordet finnas en Swish QR-kod.
+
+                        Vi håller som många vet på att renovera vårat hus sakta men säkert. Det blir lätt kostsamt, så vi vore tacksamma för ett bidrag (stort eller litet) så att vi har möjlighet att uppgradera några val som vi annars inte gjort.
+
+                        Efter bröllopet blir det bröllopsresa till Italien. Tycker man att renovering är jättetråkigt så är vi även tacksamma för en gåva som skulle gå till en lite trevligare semester. (Alice är sjukt snål annars)
                     </p>
 
                     <p className="text-[#6d5f52] leading-relaxed text-base mb-10">
-                        Ni är varmt välkomna att skriva i meddelandet vart ni vill att bidraget ska gå —
-                        det kan vara till bröllopsresan, en renovering eller bara till det gemensamma hemmet.
-                        Varje liten tanke värmer oerhört.
+                        Om ni vill ge en gåva så får man gärna sätta in till konto Xxxx-xxxxxx. Alice föräldrar har hand om kontot och lämnar över pengarna samt en sammanställning av gåvorna efter bröllopet. Märk överföringen med personerna gåvan är från samt vad ni önskar att det ska användas till.
+
                     </p>
 
                     <p className="text-[#6d5f52] leading-relaxed text-base mb-10">
-                        Men här är en lista i med några presenter om man måster
-                        excel...
-                        Så om man köper något av detta checka gärna i det så vi inte får massa dubbletter.
+                        Vi vet att vissa gärna vill köpa en fysisk present (typ Karin Fogelberg). Därför har vi gjort en kort lista på saker vi önskar oss. Bocka av presenten om du köpt så att vi inte råkar få dubletter.
+
                     </p>
 
                     <div className="w-32 h-px bg-[#c9b8a8] mx-auto mb-10" />
