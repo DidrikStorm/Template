@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { Heart } from "lucide-react";
-import coupleImg from "/src/components/1000005146.jpg";
+import coupleImg from "/src/components/IMG-20260414-WA0006.jpg";
 
 export default function WelcomeHero() {
     return (
@@ -11,7 +11,7 @@ export default function WelcomeHero() {
                     src={coupleImg}
                     alt=""
                     className="w-full h-full object-cover"
-                    style={{ filter: "sepia(0%) saturate(70%) brightness(1.05) hue-rotate(10deg)" }}
+                    style={{ filter: "sepia(40%) saturate(60%) brightness(1.05) hue-rotate(10deg)" }}
                 />
                 {/* Fade left edge to blend with background */}
                 <div className="absolute inset-0" style={{ background: "linear-gradient(to right, #fdfbf7 0%, rgba(253,251,247,0.4) 40%, rgba(253,251,247,0.1) 100%)" }} />
