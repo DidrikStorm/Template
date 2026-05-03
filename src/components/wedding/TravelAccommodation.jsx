@@ -109,7 +109,7 @@ export default function TravelAccommodation() {
                                 <Phone className="w-4 h-4 mt-0.5 flex-shrink-0" />
                                 <span>
                                     Om ni inte hittar något boende kanske vi kan lösa det<br />
-                  eller har andra frågor, kontakta oss på <br />
+                  eller om ni har andra frågor, kontakta oss på <br />
                   <a href="mailto:aliceochdidrik2026@gmail.com" className="text-[#c4a67c] hover:underline">
                     aliceochdidrik2026@gmail.com
                   </a>

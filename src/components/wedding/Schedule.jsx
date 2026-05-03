@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
-import {Church, Utensils, Music, Sparkles, GlassWater, Cake, LucideFish} from "lucide-react";
+import {Church, Utensils, Music, Sparkles, GlassWater, Cake, Camera, BedDouble} from "lucide-react";
+import { Icon } from '@iconify/react';
 
 const scheduleItems = [
     {
@@ -10,6 +11,12 @@ const scheduleItems = [
     },
     {
         time: "16:00",
+        title: "Gruppbild",
+        description: "Innan minglet samlas vi alla och tar en gruppbild.",
+        icon: Camera,
+    },
+    {
+        time: "16:15",
         title: "Mingel & Fördrink",
         description: "Välkomstdrink och mingel i trädgården.",
         icon: GlassWater,
@@ -17,26 +24,32 @@ const scheduleItems = [
     {
         time: "18:00",
         title: "Middag",
-        description: "Middag serveras i festsalen.",
+        description: "Middag serveras i ladan.",
         icon: Utensils,
     },
     {
         time: "20:00",
         title: "Dessert",
-        description: "Det bjuds på en hemmabakad dessert gjord av Camilla.",
+        description: "Det bjuds på hemmagjord dessert.",
         icon: Cake,
-    },
-    {
-        time: "21:30",
-        title: "Jakob ska vara lekledare",
-        description: "Fiskdamm.",
-        icon: LucideFish,
     },
     {
         time: "22:00",
         title: "Fest & Dans",
-        description: "Loke öppnar dansgolvet.",
+        description: "Middagen dukas av och dansgolvet öppnas.",
         icon: Sparkles,
+    },
+    {
+        time: "00:00",
+        title: "Vickning",
+        description: "Det bjuds på korv.",
+        icon: (props) => <Icon icon="mdi:food-hot-dog" {...props} />,
+    },
+    {
+        time: "02:00",
+        title: "Slut",
+        description: "Läggdags.",
+        icon: BedDouble,
     },
 ];
 

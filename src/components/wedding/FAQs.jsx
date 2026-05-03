@@ -7,17 +7,19 @@ const faqs = [
     {
         question: "Vad är klädkoden?",
         answer: `Klädkod: Festligt uppklätt
-Ta på er något ni känner er fina i – gärna kostym eller klänning.
-Vi älskar färg, men det viktigaste är att ni känner er bekväma och festliga.`
+        Ta på er något ni känner er fina i – gärna kostym eller klänning.
+        Vi älskar färg, men det viktigaste är att ni känner er bekväma och festliga.
+        Tips: vill man ha klackskor rekommenderar vi bred klack, eftersom vi kommer vara på gräsmatta`
     },
     {
         question: "Får man hålla tal?",
-        answer: "Absolut, man får gärna hålla tal. Anmäl tal så fort som möjligt till våra toastmasters.",
+        answer: `Absolut, man får gärna hålla tal. Anmäl tal så fort som möjligt till våra toastmasters.
+        Senast 31 Maj.`,
         link: { text: "Hör av er till toastmaster", href: "#extra" }
     },
     {
         question: "Finns det vegetariska, veganska eller allergianpassade alternativ?",
-        answer: "Absolut! Det kommer att finnas vegetariska och veganska alternativ, och vi tar självklart hänsyn till allergier och specialkost. Meddela oss gärna innan .... om du har några kostpreferenser eller allergier, så ser vi till att ordna något som passar dig."
+        answer: "Absolut! Det kommer att finnas vegetariska och veganska alternativ, och vi tar självklart hänsyn till allergier och specialkost. Meddela oss gärna innan 31 maj om du har några kostpreferenser eller allergier, så ser vi till att ordna något som passar dig."
     },
     /*{
         question: "Vad ska jag göra om jag har allergier?",

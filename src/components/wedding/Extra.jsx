@@ -62,25 +62,6 @@ export default function Extra() {
                     {/* Gift options */}
                     <div className="grid md:grid-cols-2 gap-6 mb-12">
                         <motion.div
-                            initial={{ opacity: 0, x: 20 }}
-                            whileInView={{ opacity: 1, x: 0 }}
-                            viewport={{ once: true }}
-                            transition={{ duration: 0.6, delay: 0.1 }}
-                            className="bg-[#f7f3ed] rounded-2xl p-8 text-center"
-                        >
-                            <div className="w-14 h-14 rounded-full bg-white flex items-center justify-center mx-auto mb-4 shadow-sm">
-                                <LucideUtensils className="w-6 h-6 text-[#c4a67c]" />
-                            </div>
-                            <h3 className="font-serif text-xl text-[#4a4038] mb-3">Mat</h3>
-                            <p className="text-[#6d5f52] text-sm leading-relaxed mb-4">
-                                Vi ser fram emot att fira med er och bjuda på middag.
-                            </p>
-                            <p className="text-[#8a7968] text-xs">
-
-
-                            </p>
-                        </motion.div>
-                        <motion.div
                             initial={{ opacity: 0, x: -20 }}
                             whileInView={{ opacity: 1, x: 0 }}
                             viewport={{ once: true }}

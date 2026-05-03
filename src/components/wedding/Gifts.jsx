@@ -30,26 +30,27 @@ export default function Gifts() {
                         <Gift className="w-7 h-7 text-[#c4a67c]" />
                     </div>
 
-                    <p className="font-serif text-2xl md:text-3xl text-[#4a4038] mb-6 leading-relaxed italic">
+                    <p className="font-serif text-2xl md:text-3xl text-[#6d5f52] mb-6 leading-relaxed italic">
                         Er närvaro är den finaste gåvan vi kan tänka oss.
 
                         Vi har allt vi behöver så därför har vi ingen lång present lista. Men vill ni ändå uppmärksamma vår dag med en gåva så har vi två förslag:
                     </p>
 
-                    <p className="text-[#6d5f52] leading-relaxed text-lg mb-8">
+                    <p className="text-[#6d5f52] leading-relaxed text-base mb-10">
 
-                        Vi håller som många vet på att renovera vårat hus sakta men säkert. Det blir lätt kostsamt, så vi vore tacksamma för ett bidrag (stort eller litet) så att vi har möjlighet att uppgradera några val som vi annars inte gjort.
+                        Som många vet håller vi sakta men säkert på att renovera vårat hus. Det blir lätt kostsamt, så vi vore tacksamma för en gåva (stor eller liten) så att vi har möjlighet att uppgradera några val som vi annars inte gjort.
 
                         Efter bröllopet blir det bröllopsresa till Italien. Tycker man att renovering är jättetråkigt så är vi även tacksamma för en gåva som skulle gå till en lite trevligare semester. (Alice är sjukt snål annars)
                     </p>
 
                     <p className="text-[#6d5f52] leading-relaxed text-base mb-10">
-                        Om ni vill ge en gåva så får man gärna sätta in till konto Xxxx-xxxxxx. Alice föräldrar har hand om kontot och lämnar över pengarna samt en sammanställning av gåvorna efter bröllopet. Märk överföringen med personerna gåvan är från samt vad ni önskar att det ska användas till.
+                        Om ni vill ge en gåva så får man gärna sätta in på konto< br/>  Banknr: 6690 - 490 658 911 Kontoinnehavare: Karin Fogelberg. <br/>Alice föräldrar har hand om kontot och lämnar över pengarna samt en sammanställning av gåvorna efter bröllopet. Märk överföringen med personerna gåvan är från samt vad ni önskar att det ska användas till.
 
                     </p>
 
                     <p className="text-[#6d5f52] leading-relaxed text-base mb-10">
-                        Vi vet att vissa gärna vill köpa en fysisk present (typ Karin Fogelberg). Därför har vi gjort en kort lista på saker vi önskar oss. Bocka av presenten om du köpt så att vi inte råkar få dubletter.
+                        Vi vet att vissa gärna vill köpa en fysisk present (typ Karin Fogelberg). Därför har vi gjort en kort lista på saker vi önskar oss. Bocka av presenten som du köpt så att vi inte råkar få dubletter.<br/>
+                        Lista kommer snart...
 
                     </p>
 
