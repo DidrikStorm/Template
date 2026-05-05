@@ -28,7 +28,7 @@ const faqs = [
         question: "Kan jag ta bilder under ceremonin?",
         answer: `Självklart!
             Vi blir jätteglada om ni vill ta bilder! Försök bara att göra det lite diskret så att ceremonin inte störs – och glöm inte att också njuta av stunden.
-            #aliceochdidrik2026`
+            Ni får gärna hashtaga #aliceochdidrik2026 så vi kan ta del av allas bilder`
     }
 ];
 
