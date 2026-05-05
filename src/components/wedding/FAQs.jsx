@@ -13,8 +13,7 @@ const faqs = [
     },
     {
         question: "Får man hålla tal?",
-        answer: `Absolut, man får gärna hålla tal. Anmäl tal så fort som möjligt till våra toastmasters.
-        Senast 31 Maj.`,
+        answer: `Absolut, man får gärna hålla tal. Anmäl tal så fort som möjligt till våra toastmasters.`,
         link: { text: "Hör av er till toastmaster", href: "#extra" }
     },
     {
@@ -28,7 +27,8 @@ const faqs = [
     {
         question: "Kan jag ta bilder under ceremonin?",
         answer: `Självklart!
-            Vi blir jätteglada om ni vill ta bilder! Försök bara att göra det lite diskret så att ceremonin inte störs – och glöm inte att också njuta av stunden.`
+            Vi blir jätteglada om ni vill ta bilder! Försök bara att göra det lite diskret så att ceremonin inte störs – och glöm inte att också njuta av stunden.
+            #aliceochdidrik2026`
     }
 ];
 
