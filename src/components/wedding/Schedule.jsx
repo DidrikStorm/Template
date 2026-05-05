@@ -30,7 +30,6 @@ const scheduleItems = [
     {
         time: "20:00",
         title: "Dessert",
-        description: "Det bjuds på hemmagjord dessert.",
         icon: Cake,
     },
     {
@@ -42,13 +41,13 @@ const scheduleItems = [
     {
         time: "00:00",
         title: "Vickning",
-        description: "Det bjuds på korv.",
+        description: "Det bjuds på korv för att orka dansa hela natten.",
         icon: (props) => <Icon icon="mdi:food-hot-dog" {...props} />,
     },
     {
         time: "02:00",
         title: "Slut",
-        description: "Läggdags.",
+        description: "Dags att dansa vidare i livet.",
         icon: BedDouble,
     },
 ];

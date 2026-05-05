@@ -91,10 +91,9 @@ export default function Extra() {
                             </div>
                             <h3 className="font-serif text-xl text-[#4a4038] mb-3">Parkering</h3>
                             <p className="text-[#6d5f52] text-sm leading-relaxed mb-4">
-
+                                Ja, det finns gott om parkering vid lokalen. Det kommer finnas skyltar som visar vägen.
                             </p>
                             <p className="text-[#8a7968] text-xs">
-                                "Ja, det finns gott om parkering vid lokalen. Det kommer finnas skyltar som visar vägen."
 
                             </p>
                         </motion.div>
