@@ -82,10 +82,10 @@ export default function EnvelopeIntro({ onOpen }) {
                         className="text-center mb-8 md:mb-12"
                     >
                         <p className="text-[#8a7a6d] tracking-[0.3em] uppercase text-xs md:text-sm mb-4">
-                            Stort Välkomna till
+                            Varmt Välkomna till
                         </p>
                         <h1 className="font-serif text-4xl md:text-6xl text-[#5a4a3d] italic">
-                            Bröllop för Alice och Didrik
+                            Alice och Didriks bröllop
                         </h1>
                     </motion.div>
 
