@@ -49,8 +49,15 @@ export default function Gifts() {
                     </p>
 
                     <p className="text-[#6d5f52] leading-relaxed text-base mb-10">
-                        Vi vet att vissa gärna vill köpa en fysisk present (typ Karin Fogelberg). Därför har vi gjort en kort lista på saker vi önskar oss. Bocka av presenten som du köpt så att vi inte råkar få dubletter.<br/>
-                        Lista kommer snart...
+                        Vi vet att vissa gärna vill köpa en fysisk present (typ Karin Fogelberg). Därför har vi gjort en kort lista på saker vi önskar oss. Bocka av presenten som du köpt så att vi inte råkar få dubletter.<br/><br/>
+                        <a
+                            href="https://mywishlists.com/wishs/view/001N6EafAHUSMia8pWaYoM1z"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="inline-flex items-center gap-2 px-6 py-3 bg-gradient-to-r from-pink-500 to-rose-500 text-white font-semibold rounded-full shadow-lg hover:scale-105 hover:shadow-xl transition-all duration-300"
+                        >
+                            🎁 Se Presentlistan
+                        </a>
 
                     </p>
 
