@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import { MapPin, Clock, Calendar, Mail } from "lucide-react";
+import parkering from "/src/components/parkering.jpg";
 
 export default function Grillkvall() {
     return (
@@ -74,18 +75,18 @@ export default function Grillkvall() {
                             Det är svårt att få plats med alla bilar utanför huset, så vi önskar att man parkerar nere i hamnen och följer sedan kartan nedan för att hitta rätt. Vi kommer också sätta ut skyltar så att det är lätt att hitta.
                         </p>
                         <img
-                            src="https://media.base44.com/images/public/69774f667531e8f31040bb02/014d48cee_Vgbeskrivningparkering.png"
+                            src={parkering}
                             alt="Vägbeskrivning och parkering Kårehamn"
                             className="w-full rounded-xl border border-[#e8ddd0]"
-                        />
+                            />
                     </motion.div>
 
                     {/* Good to know */}
                     <motion.div
-                        initial={{ opacity: 0, y: 20 }}
-                        whileInView={{ opacity: 1, y: 0 }}
-                        viewport={{ once: true }}
-                        transition={{ duration: 0.7, delay: 0.3 }}
+                        initial={{opacity: 0, y: 20}}
+                        whileInView={{opacity: 1, y: 0}}
+                        viewport={{once: true}}
+                        transition={{duration: 0.7, delay: 0.3}}
                         className="bg-[#f7f3ed] rounded-2xl p-8 border border-[#e8ddd0]"
                     >
                         <h3 className="font-serif text-2xl text-[#4a4038] mb-4">Bra att veta</h3>
