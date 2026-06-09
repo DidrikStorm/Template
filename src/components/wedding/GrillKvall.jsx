@@ -107,7 +107,7 @@ export default function Grillkvall() {
                         <Mail className="w-7 h-7 text-[#c4a67c] mx-auto mb-3" />
                         <h3 className="font-serif text-2xl text-[#4a4038] mb-2">OSA</h3>
                         <p className="text-[#6d5f52] leading-relaxed mb-2">
-                            Anmäl er senast <strong>31 juni</strong> så att vi kan räkna hur mycket korv som behöver köpas.<br/>
+                            Anmäl er senast <strong>30 juni</strong> så att vi kan räkna hur mycket korv som behöver köpas.<br/>
                             <a href="mailto:aliceochdidrik2026@gmail.com" className="text-[#c4a67c] hover:underline">
                                 aliceochdidrik2026@gmail.com
                             </a>
