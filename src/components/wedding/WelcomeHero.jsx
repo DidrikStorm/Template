@@ -4,7 +4,7 @@ import coupleImg from "/src/components/IMG-20260414-WA0006.jpg";
 
 export default function WelcomeHero() {
     return (
-        <section id="welcome" className="min-h-screen flex items-center justify-center relative overflow-hidden bg-gradient-to-b from-[#fdfbf7] to-[#f7f3ed]">
+        <section id="welcome" className="min-h-screen flex items-center justify-center relative overflow-hidden bg-[#fdfbf7]">
             {/* Photo on the right side, behind content */}
             <div className="absolute inset-y-0 right-0 w-1/2 z-0">
                 <img

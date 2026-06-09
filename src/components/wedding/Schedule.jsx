@@ -54,7 +54,7 @@ const scheduleItems = [
 
 export default function Schedule() {
     return (
-        <section id="schema" className="py-24 md:py-32 bg-[#fdfbf7]">
+        <section id="schema" className="py-24 md:py-32 bg-gradient-to-b from-[#fdfbf7] to-[#f7f3ed]">
             <div className="container mx-auto px-6">
                 <motion.div
                     initial={{ opacity: 0, y: 20 }}
