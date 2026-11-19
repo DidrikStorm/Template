@@ -80,7 +80,7 @@ export default function TravelAccommodation() {
                                     <div className="location">
                                         <img
                                             className="wedding-image"
-                                            src="https://media-cdn.tripadvisor.com/media/photo-m/1280/21/d1/84/95/sodvik-gastgivaregard.jpg"
+                                            src="test"
                                             alt="Bröllops lokal"
                                         />
                                     </div>
