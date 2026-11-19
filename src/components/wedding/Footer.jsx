@@ -14,9 +14,9 @@ export default function Footer() {
                 >
                     {/* Names */}
                     <h3 className="font-serif text-3xl md:text-4xl text-white mb-2">
-                        Alice & Didrik
+                        Lydia & Vincent
                     </h3>
-                    <p className="text-white/60 mb-8">1 Augusti 2026</p>
+                    <p className="text-white/60 mb-8">24 April 2027</p>
 
                     {/* Divider */}
                     <div className="flex items-center justify-center gap-4 mb-8">
@@ -28,24 +28,24 @@ export default function Footer() {
                     {/* Contact */}
                     <div className="flex flex-col md:flex-row items-center justify-center gap-6 mb-8">
                         <a
-                            href="mailto:aliceochdidrik2026@gmail.com"
+                            href="mailto:Mail@gmail.com"
                             className="flex items-center gap-2 text-white/70 hover:text-white transition-colors"
                         >
                             <Mail className="w-4 h-4" />
-                            aliceochdidrik2026@gmail.com
+                            Mail@gmail.com
                         </a>
                         {/* <a
-                            href="https://www.instagram.com/alicelyftervikter"
+                            href="https://www.instagram.com/"
                             className="flex items-center gap-2 text-white/70 hover:text-white transition-colors"
                         >
                             <Instagram className="w-4 h-4" />
-                            @alicelyftervikter
+                            @
                         </a>*/}
                     </div>
 
                     {/* Hashtag */}
                     <p className="text-[#c4a67c] font-medium tracking-wide mb-8">
-                        #AliceOchDidrik2026
+                        #LydiaOchVincent2027
                     </p>
 
                     {/* Copyright */}

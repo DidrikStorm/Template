@@ -13,7 +13,7 @@ export default function Extra() {
                     transition={{ duration: 0.8 }}
                     className="text-center mb-16"
                 >
-                    text here
+                    <p className="text-[#b8a89a] tracking-[0.3em] uppercase text-sm mb-4">text here</p>
                     <h2 className="font-serif text-4xl md:text-5xl text-[#4a4038] mb-4">Extra Information</h2>
                     <div className="w-20 h-px bg-[#c9b8a8] mx-auto" />
                 </motion.div>
@@ -36,8 +36,8 @@ export default function Extra() {
                             <MicVocal className="w-6 h-6 text-[#c4a67c]" />
                         </div>
                         <h3 className="font-serif text-xl text-[#4a4038] mb-3">Toastmasters</h3>
-                        text here
-                        text here
+                        <p className="text-[#6d5f52] text-sm leading-relaxed mb-4">text here</p>
+                        <p className="text-[#8a7968] text-xs">text here</p>
                         <img
                             src={coupleImg}
                             alt="Alice och Didrik"
@@ -58,8 +58,8 @@ export default function Extra() {
                                 <LucideMartini className="w-6 h-6 text-[#c4a67c]" />
                             </div>
                             <h3 className="font-serif text-xl text-[#4a4038] mb-3">Alkohol</h3>
-                            text here
-                            text here
+                            <p className="text-[#6d5f52] text-sm leading-relaxed mb-4">text here</p>
+                            <p className="text-[#8a7968] text-xs">text here</p>
                         </motion.div>
                         <motion.div
                             initial={{ opacity: 0, x: 20 }}
@@ -72,8 +72,8 @@ export default function Extra() {
                                 <Car className="w-6 h-6 text-[#c4a67c]" />
                             </div>
                             <h3 className="font-serif text-xl text-[#4a4038] mb-3">Parkering</h3>
-                            text here
-                            text here
+                            <p className="text-[#6d5f52] text-sm leading-relaxed mb-4">text here</p>
+                            <p className="text-[#8a7968] text-xs">text here</p>
                         </motion.div>
                         <motion.div
                             initial={{ opacity: 0, x: 20 }}
@@ -86,8 +86,8 @@ export default function Extra() {
                                 <Plus className="w-6 h-6 text-[#c4a67c]" />
                             </div>
                             <h3 className="font-serif text-xl text-[#4a4038] mb-3">Extra Information</h3>
-                            text here
-                            text here
+                            <p className="text-[#6d5f52] text-sm leading-relaxed mb-4">text here</p>
+                            <p className="text-[#8a7968] text-xs">text here</p>
                         </motion.div>
                     </div>
 
@@ -101,7 +101,7 @@ export default function Extra() {
                     className="text-center mt-12"
                 >
                     <Heart className="w-6 h-6 text-[#c4a67c] mx-auto mb-4 fill-[#c4a67c]/30" />
-                    text here
+                    <p className="text-[#8a7968] italic">text here</p>
                 </motion.div>
             </div>
         </section>

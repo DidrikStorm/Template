@@ -14,7 +14,7 @@ export default function Gifts() {
                     transition={{ duration: 0.8 }}
                     className="text-center mb-16"
                 >
-                    text here
+                    <p className="text-[#b8a89a] tracking-[0.3em] uppercase text-sm mb-4">Med kärlek</p>
                     <h2 className="font-serif text-4xl md:text-5xl text-[#4a4038] mb-4">Presenter</h2>
                     <div className="w-20 h-px bg-[#c9b8a8] mx-auto" />
                 </motion.div>
@@ -30,18 +30,28 @@ export default function Gifts() {
                         <Gift className="w-7 h-7 text-[#c4a67c]" />
                     </div>
 
-                    text here
+                    <p className="font-serif text-2xl md:text-3xl text-[#6d5f52] mb-6 leading-relaxed italic">
+                        Er närvaro är den finaste gåvan vi kan tänka oss.
+                    </p>
 
-                    text here
+                    <p className="text-[#6d5f52] leading-relaxed text-base mb-10">
+                        text here
+                    </p>
 
-                    text here
+                    <p className="text-[#6d5f52] leading-relaxed text-base mb-10">
+                        text here
+                    </p>
 
-                    text here
+                    <p className="text-[#6d5f52] leading-relaxed text-base mb-10">
+                        text here
+                    </p>
 
                     <div className="w-32 h-px bg-[#c9b8a8] mx-auto mb-10" />
 
                     <Heart className="w-6 h-6 text-[#c4a67c] mx-auto mb-4 fill-[#c4a67c]/30" />
-                    text here
+                    <p className="text-[#8a7968] italic text-base">
+                        Tack för att ni firar med oss!
+                    </p>
                 </motion.div>
             </div>
         </section>
