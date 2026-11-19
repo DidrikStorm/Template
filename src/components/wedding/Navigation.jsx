@@ -79,7 +79,7 @@ export default function Navigation() {
                             <span className={`font-serif text-lg transition-colors ${
                                 scrolled ? "text-[#4a4038]" : "text-[#4a4038]"
                             }`}>
-                A & D
+                L & V
               </span>
                         </button>
 
