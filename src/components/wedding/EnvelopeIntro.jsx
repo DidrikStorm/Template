@@ -85,7 +85,7 @@ export default function EnvelopeIntro({ onOpen }) {
                             Varmt Välkomna till
                         </p>
                         <h1 className="font-serif text-4xl md:text-6xl text-[#5a4a3d] italic">
-                            Alice och Didriks bröllop
+                            Lydia och Vincents bröllop
                         </h1>
                     </motion.div>
 

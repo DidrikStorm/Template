@@ -6,19 +6,16 @@ import { ChevronDown } from "lucide-react";
 const faqs = [
     {
         question: "Vad är klädkoden?",
-        answer: `Klädkod: Festligt uppklätt
-        Ta på er något ni känner er fina i – gärna kostym eller klänning.
-        Vi älskar färg, men det viktigaste är att ni känner er bekväma och festliga.
-        Tips: vill man ha klackskor rekommenderar vi bred klack, eftersom vi kommer vara på gräsmatta`
+        answer: `Klädkod: Text här`
     },
     {
         question: "Får man hålla tal?",
-        answer: `Absolut, man får gärna hålla tal. Anmäl tal så fort som möjligt till våra toastmasters.`,
+        answer: `Text här.`,
         link: { text: "Hör av er till toastmaster", href: "#extra" }
     },
     {
         question: "Finns det vegetariska, veganska eller allergianpassade alternativ?",
-        answer: "Absolut! Det kommer att finnas vegetariska och veganska alternativ, och vi tar självklart hänsyn till allergier och specialkost. Meddela oss gärna innan 31 maj om du har några kostpreferenser eller allergier, så ser vi till att ordna något som passar dig."
+        answer: "Text här."
     },
     /*{
         question: "Vad ska jag göra om jag har allergier?",
@@ -27,8 +24,7 @@ const faqs = [
     {
         question: "Kan jag ta bilder under ceremonin?",
         answer: `Självklart!
-            Vi blir jätteglada om ni vill ta bilder! Försök bara att göra det lite diskret så att ceremonin inte störs – och glöm inte att också njuta av stunden.
-            Ni får gärna hashtaga #aliceochdidrik2026 så vi kan ta del av allas bilder`
+            Text här`
     }
 ];
 

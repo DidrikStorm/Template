@@ -3,7 +3,6 @@ import { AnimatePresence, motion } from "framer-motion";
 import Navigation from "@/components/wedding/Navigation";
 import WelcomeHero from "@/components/wedding/WelcomeHero";
 import Schedule from "@/components/wedding/Schedule";
-import Grillkvall from "@/components/wedding/GrillKvall";
 import FAQs from "@/components/wedding/FAQs";
 import TravelAccommodation from "@/components/wedding/TravelAccommodation";
 import Gifts from "@/components/wedding/Gifts";
@@ -30,7 +29,6 @@ export default function Home() {
                 <Navigation />
                 <WelcomeHero />
                 <Schedule />
-                <Grillkvall />
                 <FAQs />
                 <TravelAccommodation />
                 <Gifts />
