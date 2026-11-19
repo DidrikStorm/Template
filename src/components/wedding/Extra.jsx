@@ -13,7 +13,7 @@ export default function Extra() {
                     transition={{ duration: 0.8 }}
                     className="text-center mb-16"
                 >
-                    <p className="text-[#b8a89a] tracking-[0.3em] uppercase text-sm mb-4"></p>
+                    text here
                     <h2 className="font-serif text-4xl md:text-5xl text-[#4a4038] mb-4">Extra Information</h2>
                     <div className="w-20 h-px bg-[#c9b8a8] mx-auto" />
                 </motion.div>
@@ -36,22 +36,8 @@ export default function Extra() {
                             <MicVocal className="w-6 h-6 text-[#c4a67c]" />
                         </div>
                         <h3 className="font-serif text-xl text-[#4a4038] mb-3">Toastmasters</h3>
-                        <p className="text-[#6d5f52] text-sm leading-relaxed mb-4">
-                            Vi har den stora äran att presentera vårt värdpar, Mathilda och Jakob! Mathilda är inte bara en av
-                            brudparets närmaste vänner, utan också den levande Amors pil som såg till att Alice och Didrik överhuvudtaget
-                            fann varandra. Vid hennes sida har hon Jakob – brudens bror och Didriks blivande svåger – som har stenkoll på
-                            familjeanekdoterna. Tillsammans kommer de att guida oss genom denna oförglömliga dag!<br/>
-                            <a
-                                href="mailto:Toastmaster.ad@gmail.com"
-                                className="underline hover:opacity-80"
-                            >
-                                Toastmaster.AD@gmail.com
-                            </a>
-
-                        </p>
-                        <p className="text-[#8a7968] text-xs">
-
-                        </p>
+                        text here
+                        text here
                         <img
                             src={coupleImg}
                             alt="Alice och Didrik"
@@ -72,12 +58,8 @@ export default function Extra() {
                                 <LucideMartini className="w-6 h-6 text-[#c4a67c]" />
                             </div>
                             <h3 className="font-serif text-xl text-[#4a4038] mb-3">Alkohol</h3>
-                            <p className="text-[#6d5f52] text-sm leading-relaxed mb-4">
-                                Efter middagen finns det möjlighet att köpa dryck i baren.
-                            </p>
-                            <p className="text-[#8a7968] text-xs">
-
-                            </p>
+                            text here
+                            text here
                         </motion.div>
                         <motion.div
                             initial={{ opacity: 0, x: 20 }}
@@ -90,12 +72,8 @@ export default function Extra() {
                                 <Car className="w-6 h-6 text-[#c4a67c]" />
                             </div>
                             <h3 className="font-serif text-xl text-[#4a4038] mb-3">Parkering</h3>
-                            <p className="text-[#6d5f52] text-sm leading-relaxed mb-4">
-                                Ja, det finns gott om parkering vid lokalen. Det kommer finnas skyltar som visar vägen.
-                            </p>
-                            <p className="text-[#8a7968] text-xs">
-
-                            </p>
+                            text here
+                            text here
                         </motion.div>
                         <motion.div
                             initial={{ opacity: 0, x: 20 }}
@@ -108,13 +86,8 @@ export default function Extra() {
                                 <Plus className="w-6 h-6 text-[#c4a67c]" />
                             </div>
                             <h3 className="font-serif text-xl text-[#4a4038] mb-3">Extra Information</h3>
-                            <p className="text-[#6d5f52] text-sm leading-relaxed mb-4">
-
-                            </p>
-                            <p className="text-[#8a7968] text-xs">
-                                "Mer info kommer."
-
-                            </p>
+                            text here
+                            text here
                         </motion.div>
                     </div>
 
@@ -128,9 +101,7 @@ export default function Extra() {
                     className="text-center mt-12"
                 >
                     <Heart className="w-6 h-6 text-[#c4a67c] mx-auto mb-4 fill-[#c4a67c]/30" />
-                    <p className="text-[#8a7968] italic">
-
-                    </p>
+                    text here
                 </motion.div>
             </div>
         </section>

@@ -64,9 +64,7 @@ function FAQItem({ faq, isOpen, onClick }) {
                         transition={{ duration: 0.3, ease: "easeInOut" }}
                         className="overflow-hidden"
                     >
-                        <p className="pb-6 text-[#6d5f52] leading-relaxed whitespace-pre-line">
-                        {faq.answer}
-                        </p>
+                        text here
                         {faq.link && (
                             <a
                                 href={faq.link.href}
@@ -95,7 +93,7 @@ export default function FAQs() {
                     transition={{ duration: 0.8 }}
                     className="text-center mb-16"
                 >
-                    <p className="text-[#b8a89a] tracking-[0.3em] uppercase text-sm mb-4">Frågor & Svar</p>
+                    text here
                     <h2 className="font-serif text-4xl md:text-5xl text-[#4a4038] mb-4">FAQs</h2>
                     <div className="w-20 h-px bg-[#c9b8a8] mx-auto" />
                 </motion.div>

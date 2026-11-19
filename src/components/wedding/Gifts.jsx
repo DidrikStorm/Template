@@ -14,7 +14,7 @@ export default function Gifts() {
                     transition={{ duration: 0.8 }}
                     className="text-center mb-16"
                 >
-                    <p className="text-[#b8a89a] tracking-[0.3em] uppercase text-sm mb-4">Med kärlek</p>
+                    text here
                     <h2 className="font-serif text-4xl md:text-5xl text-[#4a4038] mb-4">Presenter</h2>
                     <div className="w-20 h-px bg-[#c9b8a8] mx-auto" />
                 </motion.div>
@@ -30,43 +30,18 @@ export default function Gifts() {
                         <Gift className="w-7 h-7 text-[#c4a67c]" />
                     </div>
 
-                    <p className="font-serif text-2xl md:text-3xl text-[#6d5f52] mb-6 leading-relaxed italic">
-                        Er närvaro är den finaste gåvan vi kan tänka oss.
+                    text here
 
-                        Vi har allt vi behöver så därför har vi ingen lång present lista. Men vill ni ändå uppmärksamma vår dag med en gåva så har vi två förslag:
-                    </p>
+                    text here
 
-                    <p className="text-[#6d5f52] leading-relaxed text-base mb-10">
+                    text here
 
-                        Som många vet håller vi sakta men säkert på att renovera vårat hus. Det blir lätt kostsamt, så vi vore tacksamma för en gåva (stor eller liten) så att vi har möjlighet att uppgradera några val som vi annars inte gjort.
-
-                        Efter bröllopet blir det bröllopsresa till Italien. Tycker man att renovering är jättetråkigt så är vi även tacksamma för en gåva som skulle gå till en lite trevligare semester. (Alice är sjukt snål annars)
-                    </p>
-
-                    <p className="text-[#6d5f52] leading-relaxed text-base mb-10">
-                        Om ni vill ge en gåva så får man gärna sätta in på konto< br/>  Banknr: 6690 - 490 658 911 Kontoinnehavare: Karin Fogelberg. <br/>Alice föräldrar har hand om kontot och lämnar över pengarna samt en sammanställning av gåvorna efter bröllopet. Märk överföringen med personerna gåvan är från samt vad ni önskar att det ska användas till.
-
-                    </p>
-
-                    <p className="text-[#6d5f52] leading-relaxed text-base mb-10">
-                        Vi vet att vissa gärna vill köpa en fysisk present (typ Karin Fogelberg). Därför har vi gjort en kort lista på saker vi önskar oss. Bocka av presenten som du köpt så att vi inte råkar få dubletter.<br/><br/>
-                        <a
-                            href="https://mywishlists.com/wishs/view/001N6EafAHUSMia8pWaYoM1z"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            className="inline-flex items-center gap-2 px-6 py-3 bg-gradient-to-r from-pink-500 to-rose-500 text-white font-semibold rounded-full shadow-lg hover:scale-105 hover:shadow-xl transition-all duration-300"
-                        >
-                            🎁 Se Presentlistan
-                        </a>
-
-                    </p>
+                    text here
 
                     <div className="w-32 h-px bg-[#c9b8a8] mx-auto mb-10" />
 
                     <Heart className="w-6 h-6 text-[#c4a67c] mx-auto mb-4 fill-[#c4a67c]/30" />
-                    <p className="text-[#8a7968] italic text-base">
-                        Tack för att ni firar med oss!
-                    </p>
+                    text here
                 </motion.div>
             </div>
         </section>

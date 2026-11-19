@@ -39,14 +39,7 @@ export default function WelcomeHero() {
                     />
 
                     {/* Pre-heading */}
-                    <motion.p
-                        initial={{ opacity: 0 }}
-                        animate={{ opacity: 1 }}
-                        transition={{ delay: 0.5 }}
-                        className="text-[#8a7968] tracking-[0.3em] uppercase text-sm mb-6 font-light"
-                    >
-                        Vi ska gifta oss
-                    </motion.p>
+                    text here
 
                     {/* Main names */}
                     <motion.h1
@@ -85,15 +78,8 @@ export default function WelcomeHero() {
                         transition={{ delay: 1.2 }}
                         className="space-y-2"
                     >
-                        <p className="text-[#6d5f52] tracking-[0.2em] uppercase text-lg font-light">
-                            1 Augusti 2026
-                        </p>
-                        <p className="text-[#8a7968] tracking-wide">
-                            Södviks Gästgivaregård <br />
-                            Gamla vägen 35 <br/>
-                            Öland, Sverige <br/>
-                            387 70 Löttorp Sverige
-                        </p>
+                        text here
+                        text here
 
                     </motion.div>
 

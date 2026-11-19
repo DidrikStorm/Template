@@ -63,7 +63,7 @@ export default function Schedule() {
                     transition={{ duration: 0.8 }}
                     className="text-center mb-16"
                 >
-                    <p className="text-[#b8a89a] tracking-[0.3em] uppercase text-sm mb-4">Programmet</p>
+                    text here
                     <h2 className="font-serif text-4xl md:text-5xl text-[#4a4038] mb-4">Schema</h2>
                     <div className="w-20 h-px bg-[#c9b8a8] mx-auto" />
                 </motion.div>
@@ -96,7 +96,7 @@ export default function Schedule() {
                             {/* Content */}
                             <div className="flex-1 pb-8">
                                 <h3 className="font-serif text-xl md:text-2xl text-[#4a4038] mb-2">{item.title}</h3>
-                                <p className="text-[#6d5f52] leading-relaxed">{item.description}</p>
+                                text here
                             </div>
                         </motion.div>
                     ))}

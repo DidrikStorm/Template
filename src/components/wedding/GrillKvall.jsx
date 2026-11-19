@@ -13,7 +13,7 @@ export default function Grillkvall() {
                     transition={{ duration: 0.8 }}
                     className="text-center mb-16"
                 >
-                    <p className="text-[#b8a89a] tracking-[0.3em] uppercase text-sm mb-4">Dagen innan bröllopet</p>
+                    text here
                     <h2 className="font-serif text-4xl md:text-5xl text-[#4a4038] mb-4">Grillkväll 🌿🔥</h2>
                     <div className="w-20 h-px bg-[#c9b8a8] mx-auto" />
                 </motion.div>
@@ -27,12 +27,8 @@ export default function Grillkvall() {
                         transition={{ duration: 0.7 }}
                         className="bg-white rounded-2xl p-8 shadow-sm border border-[#e8ddd0]"
                     >
-                        <p className="text-[#4a4038] text-lg leading-relaxed mb-4">
-                            Välkommen på grillfest! Dagen innan bröllopet vill vi gärna välkomna alla som redan tagit sig till Öland och bjuda på en avslappnad grillkväll på Alice sommarställe i Kårehamn. Vi kommer ställa fram spel och lekar men framför allt ser vi fram emot att hinna umgås lite mer än bara på bröllopsdagen.
-                        </p>
-                        <p className="text-[#6d5f52] leading-relaxed">
-                            Det här blir en enkel och härlig kväll/eftermiddag utan klädkod och utan sittande middag – kom som du är! Vi bjuder på grillad korv och dryck, och vi kommer att vara utomhus oavsett väder, så klä dig efter förutsättningarna.
-                        </p>
+                        text here
+                        text here
                     </motion.div>
 
                     {/* Details */}
@@ -45,20 +41,20 @@ export default function Grillkvall() {
                     >
                         <div className="bg-white rounded-2xl p-6 shadow-sm border border-[#e8ddd0] text-center">
                             <Calendar className="w-6 h-6 text-[#c4a67c] mx-auto mb-3" />
-                            <p className="text-[#b8a89a] text-xs tracking-widest uppercase mb-1">När</p>
-                            <p className="font-serif text-[#4a4038] text-lg">Fredag 31/7</p>
+                            text here
+                            text here
                         </div>
                         <div className="bg-white rounded-2xl p-6 shadow-sm border border-[#e8ddd0] text-center">
                             <Clock className="w-6 h-6 text-[#c4a67c] mx-auto mb-3" />
-                            <p className="text-[#b8a89a] text-xs tracking-widest uppercase mb-1">Tid</p>
-                            <p className="font-serif text-[#4a4038] text-lg">Drop in 17:00</p>
-                            <p className="text-[#6d5f52] text-sm">Avslut senast 22:00</p>
+                            text here
+                            text here
+                            text here
                         </div>
                         <div className="bg-white rounded-2xl p-6 shadow-sm border border-[#e8ddd0] text-center">
                             <MapPin className="w-6 h-6 text-[#c4a67c] mx-auto mb-3" />
-                            <p className="text-[#b8a89a] text-xs tracking-widest uppercase mb-1">Var</p>
-                            <p className="font-serif text-[#4a4038] text-lg">Kårehamn</p>
-                            <p className="text-[#6d5f52] text-sm">Elsa kåresväg 27</p>
+                            text here
+                            text here
+                            text here
                         </div>
                     </motion.div>
 
@@ -71,9 +67,7 @@ export default function Grillkvall() {
                         className="bg-white rounded-2xl p-8 shadow-sm border border-[#e8ddd0]"
                     >
                         <h3 className="font-serif text-2xl text-[#4a4038] mb-3">Parkering & vägbeskrivning</h3>
-                        <p className="text-[#6d5f52] leading-relaxed mb-6">
-                            Det är svårt att få plats med alla bilar utanför huset, så vi önskar att man parkerar nere i hamnen och följer sedan kartan nedan för att hitta rätt. Vi kommer också sätta ut skyltar så att det är lätt att hitta.
-                        </p>
+                        text here
                         <img
                             src={parkering}
                             alt="Vägbeskrivning och parkering Kårehamn"
@@ -106,13 +100,8 @@ export default function Grillkvall() {
                     >
                         <Mail className="w-7 h-7 text-[#c4a67c] mx-auto mb-3" />
                         <h3 className="font-serif text-2xl text-[#4a4038] mb-2">OSA</h3>
-                        <p className="text-[#6d5f52] leading-relaxed mb-2">
-                            Anmäl er senast <strong>30 juni</strong> så att vi kan räkna hur mycket korv som behöver köpas.<br/>
-                            <a href="mailto:aliceochdidrik2026@gmail.com" className="text-[#c4a67c] hover:underline">
-                                aliceochdidrik2026@gmail.com
-                            </a>
-                        </p>
-                        <p className="text-[#4a4038] font-medium">Varmt välkomna 💕</p>
+                        text here
+                        text here
                     </motion.div>
                 </div>
             </div>
