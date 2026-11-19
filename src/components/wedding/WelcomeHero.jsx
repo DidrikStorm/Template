@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { Heart } from "lucide-react";
-import coupleImg from "../IMG-20260414-WA0006.jpg";
+import coupleImg from "../Untitled.jpg";
 
 export default function WelcomeHero() {
     return (

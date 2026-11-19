@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import {Car, Plus, Heart, LucideMartini, LucideUtensils, MicVocal, Plane} from "lucide-react";
-import coupleImg from "../IMG_0682.jpeg";
+import coupleImg from "../Untitled.jpg";
 
 export default function Extra() {
     return (
