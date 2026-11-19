@@ -40,7 +40,7 @@ export default function Extra() {
                         <p className="text-[#8a7968] text-xs">text here</p>
                         <img
                             src={coupleImg}
-                            alt="Alice och Didrik"
+                            alt="Lydia och Vincent"
                             className="w-full rounded-lg mt-8 mb-4"
                         />
                     </motion.div>

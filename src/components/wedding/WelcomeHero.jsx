@@ -55,7 +55,7 @@ export default function WelcomeHero() {
                         transition={{ delay: 0.7, duration: 0.8 }}
                         className="font-serif text-5xl md:text-7xl lg:text-8xl text-[#4a4038] mb-4 leading-tight"
                     >
-                        Alice
+                        Lydia
                     </motion.h1>
 
                     <motion.div
@@ -75,7 +75,7 @@ export default function WelcomeHero() {
                         transition={{ delay: 0.9, duration: 0.8 }}
                         className="font-serif text-5xl md:text-7xl lg:text-8xl text-[#4a4038] mb-12"
                     >
-                        Didrik
+                        Vincent
                     </motion.h1>
 
                     {/* Date */}
@@ -86,13 +86,13 @@ export default function WelcomeHero() {
                         className="space-y-2"
                     >
                         <p className="text-[#6d5f52] tracking-[0.2em] uppercase text-lg font-light">
-                            1 Augusti 2026
+                            24 April 2027
                         </p>
                         <p className="text-[#8a7968] tracking-wide">
-                            Södviks Gästgivaregård <br />
-                            Gamla vägen 35 <br/>
-                            Öland, Sverige <br/>
-                            387 70 Löttorp Sverige
+                            Lokal<br />
+                            Gata <br/>
+                            Göteborg, Sverige <br/>
+                            Vart Sverige
                         </p>
 
                     </motion.div>

@@ -36,13 +36,13 @@ export default function TravelAccommodation() {
                             </div>
 
                             <div className="space-y-4 mb-8">
-                                <p className="text-[#4a4038] font-medium text-lg">Södviks Gästgivaregård</p>
+                                <p className="text-[#4a4038] font-medium text-lg">Lokal</p>
                                 <p className="text-[#6d5f52]">
-                                    Gamla vägen 35<br />
-                                    387 70 Löttorp, Öland
+                                    Adress<br />
+                                    Göteborg
                                 </p>
                                 <p className="text-[#6d5f52] leading-relaxed">
-                                    Gästgivaregårdens anrika trädgård omgärdas av stenmurar, stenlada och brygghus.
+                                    Info.
                                 </p>
                             </div>
 
@@ -52,7 +52,7 @@ export default function TravelAccommodation() {
                                     <div className="flex items-start gap-3">
                                         <Car className="w-5 h-5 text-[#8a7968] mt-0.5" />
                                         <p className="text-[#6d5f52] text-sm">
-                                            <span className="font-medium">Med bil:</span> Kör över Ölandsbron och sedan norrut mot Löttorp. Parkering finns vid lokalen.
+                                            <span className="font-medium">Med bil:</span> Parkering finns vid lokalen.
                                         </p>
                                     </div>
                                     {/*
@@ -107,8 +107,8 @@ export default function TravelAccommodation() {
                                 <Phone className="w-4 h-4 mt-0.5 flex-shrink-0" />
                                 <span>
                                     Kontakta oss om ni har frågor kring boende på <br />
-                                    <a href="mailto:aliceochdidrik2026@gmail.com" className="text-[#c4a67c] hover:underline">
-                                        aliceochdidrik2026@gmail.com
+                                    <a href="mailto:mail@gmail.com" className="text-[#c4a67c] hover:underline">
+                                        mail@gmail.com
                                     </a>
                                 </span>
                             </p>
